@@ -597,7 +597,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:8000/product/saveProduct",
+									"raw": "http://localhost:8000/product/addProduct",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -605,7 +605,7 @@
 									"port": "8000",
 									"path": [
 										"product",
-										"saveProduct"
+										"addProduct"
 									]
 								}
 							},
@@ -907,7 +907,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:8000/order/getOrderByCustomerId/1",
+									"raw": "http://localhost:8000/order/getOrdersByCustomerId/1",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -915,7 +915,7 @@
 									"port": "8000",
 									"path": [
 										"order",
-										"getOrderByCustomerId",
+										"getOrdersByCustomerId",
 										"1"
 									]
 								}
@@ -1014,7 +1014,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:8000/order/acceptOrderByCustomerId/1",
+									"raw": "http://localhost:8000/order/acceptOrdersByCustomerId/1",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1022,7 +1022,7 @@
 									"port": "8000",
 									"path": [
 										"order",
-										"acceptOrderByCustomerId",
+										"acceptOrdersByCustomerId",
 										"1"
 									]
 								}
